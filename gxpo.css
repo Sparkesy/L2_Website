@@ -1,0 +1,187 @@
+html, body, h1, h2, h3, p {
+	margin: 0'
+	padding: 0'
+	font-family: arial, helvetica, sans-serif;	
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: #4825e3 url('images/Gradiant.jpg') repeat top left;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background: #3863d000 url('images/Logo.png') no-repeat 5px 0px;
+	flex-grow: 0;
+}
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 150px;
+}
+header nav li {
+	display: inline-block;
+	margin: 10px 1px 0px 1px;
+}
+header nav a {
+	display: block;
+	font-weight: bold;
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
+	padding: 4px 17px;
+	border-radius: 3px;
+}
+header nav a:hover {
+	background: #ff2c2c;
+}
+#hoembanner {
+	background: aqua no-repeat top left;
+	background-size: auto;
+	height: 370px;
+	margin-top: 10px; 
+}
+#hoembanner h1 {
+	background: transparent no-repeat top left;
+	width: 329px;
+	height: 154px;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 10;
+	right: 48px;
+	top: 300px;
+}
+#intbanner {
+	background: white no-repeat top left;
+	background-size: cover;
+	height: 192px;
+	margin-top: 10px;
+}
+#intbanner h1 {
+	background: transparent no-repeat top left;
+	width: 329px;
+	height: 154px;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 10;
+	right: 48px;
+	top: 120px;
+}	
+#contentsection {
+	flex-grow: 1:
+	display: flex;
+	flex-direction: row:
+}	
+#logos {
+	padding: 0 10px;
+	flex-grow: 1;
+	text-align: right;
+}
+#logos ul {
+	list-style: none;
+	margin: 28px 0 0 0;
+	padding: 0px;
+	display: inline-block;
+}
+#logos li {
+	text-align: center;
+	margin: 0;
+}
+#logos li a:hover {
+	background: #ff2c2c;
+}
+#contentsection section {
+	flex-grow: 1;
+	background: #369eb7;
+	height: 100%;
+}
+#contentsection h2 {
+	margin: 28px 42px;
+	padding-bottom: 3px;
+	font-size: 28px;
+	color: #2467e3;
+	border-bottom: 3px solid #e32925;
+}
+#contentsection p {
+	font-size: 18px;
+	margin: 0 42px 18px 42px;
+}
+#contentsection a {
+	font-weight: bold;
+	color: #e32925;
+}
+#pagecontent {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}	
+#contenttext {
+	max-width: 490px;
+	min-width: 200px;
+	flex-grow: 1;
+	padding: 0 0 28px 0;
+}
+#contentimages {
+	flex-grow: 1;
+	max-width: 305px;
+	margin-left: 42px;
+}
+#contentimages ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 28px 0;
+}
+#contentimages li {
+	margin: 0;
+	padding: 0 0 3px 0;
+}
+footer {
+	background: black;
+	color: white;
+	text-align: right;
+	padding: 14px 28px;
+	flex-grow: 0px;
+}
+#gallery {
+	list-style: none;
+	padding: 0 42px 28px 42px;
+	margin: 0;
+}
+#gallery li {
+	display: inline-block;
+	margin: 0 3px 3px 0;
+}
+#gallery img {
+	border-radius: 3px;
+}
+#contentsection form {
+	padding: 0 42px;
+	margin: 0;
+}
+#contentsection form input, #contentsection form textarea {
+	background: #eeeeee;
+	font-size: 18px;
+	border-radius: 3px;
+	border: 0;
+	padding: 7px;
+	display: block;
+	margin-bottom: 5px;
+	min-width: 700px;
+}
+#contentsection form textarea{
+	font-family: arial, helvetica, sans-serif;
+	min-height: 100px;
+}
+#contentsection form input[type="submit"] {
+	min-width: 714px;
+	padding: 7px 14px;
+	background: #e32925;
+	font-weight: bold;
+	color: white;
+}
+img[alt="GXPO"] {
+	display: block;
+	margin: 28px 300px;
+}
